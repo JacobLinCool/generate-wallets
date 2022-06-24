@@ -1,0 +1,31 @@
+{
+    "name": "generate-wallets",
+    "version": "0.1.0",
+    "description": "Generate Bulk Eth Wallets",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "generate-wallets": "index.js",
+        "gen-wallets": "index.js",
+        "gen-wal": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Generate",
+        "Bulk",
+        "Eth",
+        "Wallets"
+    ],
+    "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^9.3.0",
+        "ethers": "^5.6.9"
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+        "prettier": "^2.7.1"
+    }
+}
